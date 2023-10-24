@@ -1,21 +1,10 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <Typewriter
-      options={{
-        strings: [
-          "Software Developer",
-          "Freelancer",
-          "MERN Stack Developer",
-          "Open Source Contributor",
-        ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
-      }}
-    />
+    <div>
+      Backend web developer eager to learn and grow in the field of web development. My enthusiasm and dedication to mastering new skills drive me to take on new challenges and create compelling digital solutions
+    </div>
   );
 }
 
