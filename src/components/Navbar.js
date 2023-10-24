@@ -3,6 +3,9 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
+import navIcon1 from "../Assets/nav-icon1.svg";
+import navIcon2 from "../Assets/githubicon.png";
+
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -90,18 +93,13 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-            
-
             <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-              </Button>
+              <a href="https://www.linkedin.com/in/adelina-xhema-108075259?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bn5ygP5cJTf2o%2Fq5Dj0%2Fj5Q%3D%3D"><img src={navIcon1} alt="" /></a>
+           
+              <a href="https://github.com/Adelina-Xhema"><img src={navIcon2} alt="" /></a>
+
             </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

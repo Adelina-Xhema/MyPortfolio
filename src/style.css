@@ -746,3 +746,7 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+.fork-btn  {
+  display: flex; /* Use flexbox to arrange items horizontally */
+  gap: 25px; /* Add some spacing between buttons */
+}
