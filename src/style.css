@@ -325,9 +325,11 @@ button:focus {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  padding-top: -210px !important;
   padding-bottom: 20px !important;
   text-align: center;
+  margin-left: 170px;
+
 }
 
 .home-about-body {
@@ -381,7 +383,10 @@ button:focus {
   transform: scale(1.1);
   box-shadow: 0 0 15px #801f95;
 }
+.home-about-description p{
+  margin-left: 90px;
 
+}
 .home-social-icons:hover {
   color: #87209e;
   box-shadow: 0 0 5px #87209e;
