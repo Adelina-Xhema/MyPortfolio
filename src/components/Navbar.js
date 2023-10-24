@@ -94,7 +94,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="fork-btn">
-              <a href="https://www.linkedin.com/in/adelina-xhema-108075259?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bn5ygP5cJTf2o%2Fq5Dj0%2Fj5Q%3D%3D"><img src={navIcon1} alt="" /></a>
+              <a href="https://www.linkedin.com/in/adelina-xhema-108075259?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bn5ygP5cJTf2o%2Fq5Dj0%2Fj5Q%3D%3D"><img src={navIcon1} target="_blank" alt="" /></a>
            
               <a href="https://github.com/Adelina-Xhema"><img src={navIcon2} alt="" /></a>
 
