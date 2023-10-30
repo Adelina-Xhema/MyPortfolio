@@ -22,21 +22,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="LabCourse 1 - University Management System"
-              description="Using technologies such as .NET and React.js,
-               our University Management System provides a comprehensive platform for 
-               efficient administrative control, seamless user experience and simple academic management, 
-              meeting the unique needs of administrators, students and faculty members"
-              ghLink="https://github.com/EdiKrasniqi11/University-System-Lab1"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
-        
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
               title="FLOWER-SHOP"
@@ -60,6 +45,21 @@ function Projects() {
 
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="LabCourse 1 - University Management System"
+              description="Using technologies such as .NET and React.js,
+               our University Management System provides a comprehensive platform for 
+               efficient administrative control, seamless user experience and simple academic management, 
+              meeting the unique needs of administrators, students and faculty members"
+              ghLink="https://github.com/EdiKrasniqi11/University-System-Lab1"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={taxi}
