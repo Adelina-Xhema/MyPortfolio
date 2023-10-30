@@ -18,26 +18,13 @@ function Projects() {
         <p style={{ color: "white" }}>
         During my studies I developed different projects, some of the best are here. I worked in a team and individually        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={taxi}
-              isBlog={false}
-              title="Taxi ME HOME "
-              description="TaxiMeHome web application was developed with technologies such as 
-              .NET, React.js, while MS SQL and MongoDB were used for the database. It offers taxi
-               booking, location tracking, distance, price calculation and enables automated email 
-               notifications. Thus,
-               this app makes the entire ride sharing experience simpler for users. This is a team project for Lab-Course-2."
-              ghLink=""
-              //demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="University Management System"
+              title="LabCourse 1 - University Management System"
               description="Using technologies such as .NET and React.js,
                our University Management System provides a comprehensive platform for 
                efficient administrative control, seamless user experience and simple academic management, 
@@ -46,20 +33,7 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
-          
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={epms}
-              isBlog={false}
-              title="EPMS - Evaluation Process Management System"
-              description="EPMS (Evaluation Process Management System) is a .NET-based 
-              software solution designed with a strong emphasis on modular architecture 
-              and the application of  design patterns. This approach ensures scalability, maintainability, 
-              and robustness, making it an ideal choice for managing evaluation processes effectively and efficiently."
-              ghLink=""
-            />
-          </Col>
+        
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -86,7 +60,33 @@ function Projects() {
 
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={taxi}
+              isBlog={false}
+              title="LabCourse 2 - Taxi ME HOME "
+              description="TaxiMeHome web application was developed with technologies such as 
+              .NET, React.js, while MS SQL and MongoDB were used for the database. It offers taxi
+               booking, location tracking, distance, price calculation and enables automated email 
+               notifications. Thus,
+               this app makes the entire ride sharing experience simpler for users. This is a team project for Lab-Course-2."
+              ghLink="https://gitfront.io/r/adelina/xfdzDvRHDusD/LAB2/tree/Lab2-TaxiMeHome/Lab2-TaxiMeHome/"
+              //demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={epms}
+              isBlog={false}
+              title="EPMS - Evaluation Process Management System"
+              description="EPMS (Evaluation Process Management System) is a .NET-based 
+              software solution designed with a strong emphasis on modular architecture 
+              and the application of  design patterns. This approach ensures scalability, maintainability, 
+              and robustness, making it an ideal choice for managing evaluation processes effectively and efficiently."
+              ghLink=""
+            />
+          </Col>
 
         </Row>
       </Container>
